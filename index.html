@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="real">
+            <h1>Real Time Character Counter</h1>
+        </div>
+        <div class="check">
+            <p>Check your text for speling and punctuation across with thse technical real time that counter</p>
+        </div>
+        <div class="text-area">
+            <textarea class="text" maxlength="150" aria placeholder="please write your code">
+                   
+            </textarea>
+            <button onclick="copyText(this)">Copy Text</button>
+        </div>
+        <div class="total">
+            <p class="char">Total charater : 0</p>
+            <p class="remain">Remaining : 150</p>
+        </div>
+    </div>
+    <!--js file-->
+    <script src="script.js"></script>
+</body>
+
+</html>
